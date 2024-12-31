@@ -190,7 +190,7 @@ h2.active:after
     left: calc(80px * var(--i));
     bottom: calc(80px * var(--i));
     right: calc(80px * var(--i));
-    border-radius: 50%;
+    border-radius: 20%;
     box-sizing: border-box;
 }
 
@@ -200,9 +200,9 @@ h2.active:after
     position: absolute;
     top: 50%;
     left: -8px;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
     background: #f00;
 }
 
@@ -232,6 +232,10 @@ h2.active:after
     {
         transform: rotate(0deg);
     }
+    /* 60%
+    {
+        transform: rotate(240deg);
+    } */
     100%
     {
         transform: rotate(360deg);
