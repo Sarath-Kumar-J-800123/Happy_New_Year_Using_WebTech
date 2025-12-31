@@ -97,7 +97,7 @@ body
 .text:first-child span
 {
     /* background: linear-gradient(#a0522d, #a0522d); */
-    background: linear-gradient(45deg, red, blue);
+    background: linear-gradient(40deg, royal blue 50%, cora 50%);
 }
 
 /* .text:first-child::before
@@ -107,7 +107,8 @@ body
 
 .text:nth-child(2) span
 {
-    background: linear-gradient(#00B294, #04668D);
+    /* background: linear-gradient(#00B294, #04668D); */
+    background: linear-gradient(40deg, yellow 50%, darkgreen 50%);
 }
 
 /* .text:nth-child(2)::before
@@ -117,7 +118,9 @@ body
 
 .text:nth-child(3) span
 {
-    background: linear-gradient(#FF97B5, #A86BB9);
+    /* background: linear-gradient(#FF97B5, #A86BB9); */
+    background: linear-gradient(40deg, darkred 50%, black 50%);
+    
 }
 
 /* .text:nth-child(3)::before
@@ -127,7 +130,8 @@ body
 
 .text:last-child span
 {
-    background: linear-gradient(#FFF100, #00BCF2);
+    /* background: linear-gradient(#FFF100, #00BCF2); */
+    background: linear-gradient(40deg, orange 50%, cyan 50%);
 }
 
 .text:last-child::before
