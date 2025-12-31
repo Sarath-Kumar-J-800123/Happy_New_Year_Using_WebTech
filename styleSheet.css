@@ -223,25 +223,25 @@ h2.active:after
 
 .glowing span:nth-child(3n + 1)
 {
-    animation: animate 15s alternate infinite;
+    animation: animate 10s alternate infinite;
     /* animation: animate 10s alternate infinite; */
 }
 
 .glowing span:nth-child(3n + 2)
 {
-    animation: animate-reverse 15s alternate infinite;
+    animation: animate-reverse 13s alternate infinite;
     /* animation: animate-reverse 13s alternate infinite; */
 }
 
 .glowing span:nth-child(3n + 3)
 {
-    animation: animate 10s alternate infinite;
+    animation: animate 8s alternate infinite;
     /* animation: animate 8s alternate infinite; */
 }
 
 .glowing span:nth-child(3n + 4)
 {
-    animation: animate-reverse 20s alternate infinite;
+    animation: animate-reverse 16s alternate infinite;
     /* animation: animate-reverse 16s alternate infinite; */
 }
 
