@@ -66,8 +66,9 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    font-size: 4em;
+    /* color: #fff; */
+    color: linear-gradient(40deg, teal 50%, magenta 50%);
+    font-size: 5em;
     cursor: default;
     /* background: linear-gradient(#434343,#535353); */
     background: linear-gradient(
@@ -79,7 +80,7 @@ body
     lightpink
   ); 
     transform-style: preserve-3d;
-    transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
+    transform: rotateX(calc(80deg * var(--i))) translateZ(40px);
 }
 
 .text::before
