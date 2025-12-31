@@ -264,7 +264,7 @@ h2.active:after
 }
 
 .glowing span:nth-child(3n + 1)::before
-{
+/* {
     background: rgba(134, 255, 0, 1);
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(134, 255, 0, 1),
@@ -277,10 +277,24 @@ h2.active:after
     0 0 80px rgba(134, 255, 0, 1), 
     0 0 90px rgba(134, 255, 0, 1), 
     0 0 0 100px rgba(134, 255, 0, 0.1);
+} */
+{
+    background: rgba(0, 226, 255, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 226, 255, 1), 
+    0 0 20px rgba(0, 226, 255, 1),
+    0 0 30px rgba(0, 226, 255, 1),
+    0 0 40px rgba(0, 226, 255, 1), 
+    0 0 50px rgba(0, 226, 255, 1),
+    0 0 60px rgba(0, 226, 255, 1),
+    0 0 70px rgba(0, 226, 255, 1),
+    0 0 80px rgba(0, 226, 255, 1),
+    0 0 90px rgba(0, 226, 255, 1),
+    0 0 0 100px rgba(0, 226, 255, 0.1);
 }
 
 .glowing span:nth-child(3n + 2)::before
-{
+/* {
     background: rgba(255, 214, 0, 1);
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(255, 214, 0, 1),
@@ -293,9 +307,8 @@ h2.active:after
     0 0 80px rgba(255, 214, 0, 1), 
     0 0 90px rgba(255, 214, 0, 1), 
     0 0 0 100px rgba(255, 214, 0, 0.1);
-}
+} */
 
-.glowing span:nth-child(3n + 3)::before
 {
     background: rgba(208, 2, 2, 1);
     border-radius: 50%;
@@ -311,8 +324,40 @@ h2.active:after
     0 0 0 100px rgba(208, 2, 2, 0.1);
 }
 
-.glowing span:nth-child(3n + 4)::before
+
+.glowing span:nth-child(3n + 3)::before
+/* {
+    background: rgba(208, 2, 2, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(208, 2, 2, 1),
+    0 0 20px rgba(208, 2, 2, 1),    
+    0 0 30px rgba(208, 2, 2, 1),
+    0 0 40px rgba(208, 2, 2, 1),
+    0 0 50px rgba(208, 2, 2, 1),
+    0 0 60px rgba(208, 2, 2, 1),
+    0 0 70px rgba(208, 2, 2, 1),
+    0 0 80px rgba(208, 2, 2, 1),
+    0 0 90px rgb(208, 2, 2, 1), 
+    0 0 0 100px rgba(208, 2, 2, 0.1);
+} */
+
 {
+    background: rgba(255, 214, 0, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 214, 0, 1),
+    0 0 20px rgba(255, 214, 0, 1),
+    0 0 30px rgba(255, 214, 0, 1),
+    0 0 40px rgba(255, 214, 0, 1),
+    0 0 50px rgba(255, 214, 0, 1),
+    0 0 60px rgba(255, 214, 0, 1),
+    0 0 70px rgba(255, 214, 0, 1),
+    0 0 80px rgba(255, 214, 0, 1), 
+    0 0 90px rgba(255, 214, 0, 1), 
+    0 0 0 100px rgba(255, 214, 0, 0.1);
+}
+
+.glowing span:nth-child(3n + 4)::before
+/* {
     background: rgba(0, 226, 255, 1);
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 226, 255, 1), 
@@ -325,4 +370,19 @@ h2.active:after
     0 0 80px rgba(0, 226, 255, 1),
     0 0 90px rgba(0, 226, 255, 1),
     0 0 0 100px rgba(0, 226, 255, 0.1);
+} */
+
+{
+    background: rgba(134, 255, 0, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(134, 255, 0, 1),
+    0 0 20px rgba(134, 255, 0, 1),
+    0 0 30px rgba(134, 255, 0, 1),
+    0 0 40px rgba(134, 255, 0, 1),
+    0 0 50px rgba(134, 255, 0, 1),
+    0 0 60px rgba(134, 255, 0, 1),
+    0 0 70px rgba(134, 255, 0, 1), 
+    0 0 80px rgba(134, 255, 0, 1), 
+    0 0 90px rgba(134, 255, 0, 1), 
+    0 0 0 100px rgba(134, 255, 0, 0.1);
 }
