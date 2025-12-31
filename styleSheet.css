@@ -97,7 +97,7 @@ body
 .text:first-child span
 {
     /* background: linear-gradient(#a0522d, #a0522d); */
-    background: linear-gradient(40deg, royal blue 50%, coral 50%);
+    background: linear-gradient(40deg, royalblue 50%, coral 50%);
 }
 
 /* .text:first-child::before
