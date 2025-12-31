@@ -97,7 +97,7 @@ body
 .text:first-child span
 {
     /* background: linear-gradient(#a0522d, #a0522d); */
-    background: linear-gradient(40deg, royal blue 50%, cora 50%);
+    background: linear-gradient(40deg, royal blue 50%, coral 50%);
 }
 
 /* .text:first-child::before
@@ -108,7 +108,7 @@ body
 .text:nth-child(2) span
 {
     /* background: linear-gradient(#00B294, #04668D); */
-    background: linear-gradient(40deg, yellow 50%, darkgreen 50%);
+    background: linear-gradient(40deg, yellowgreen 50%, darkgreen 50%);
 }
 
 /* .text:nth-child(2)::before
