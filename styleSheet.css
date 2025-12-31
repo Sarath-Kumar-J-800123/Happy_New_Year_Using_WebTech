@@ -135,10 +135,10 @@ body
     background: linear-gradient(40deg, orange 50%, cyan 50%);
 }
 
-.text:last-child::before
+/* .text:last-child::before
 {
     background: #11a728;
-}
+} */
 
 h2{
     position: absolute;
