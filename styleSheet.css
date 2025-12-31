@@ -87,33 +87,34 @@ body
 
 .text:first-child span
 {
-    background: linear-gradient(#a0522d, #a0522d);
+    /* background: linear-gradient(#a0522d, #a0522d); */
+    background: linear-gradient(45deg, red, blue);
 }
 
-.text:first-child::before
+/* .text:first-child::before
 {
     background: #a0522d;
-}
+} */
 
 .text:nth-child(2) span
 {
     background: linear-gradient(#008080, #008080);
 }
 
-.text:nth-child(2)::before
+/* .text:nth-child(2)::before
 {
     background: #008080;
-}
+} */
 
 .text:nth-child(3) span
 {
     background: linear-gradient(#ff4500, #ff4500);
 }
 
-.text:nth-child(3)::before
+/* .text:nth-child(3)::before
 {
     background: #ff4500;
-}
+} */
 
 .text:last-child span
 {
