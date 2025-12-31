@@ -98,7 +98,7 @@ body
 
 .text:nth-child(2) span
 {
-    background: linear-gradient(#008080, #008080);
+    background: linear-gradient(#E81123, #04668D);
 }
 
 /* .text:nth-child(2)::before
@@ -108,7 +108,7 @@ body
 
 .text:nth-child(3) span
 {
-    background: linear-gradient(#ff4500, #ff4500);
+    background: linear-gradient(#009E49, #221738);
 }
 
 /* .text:nth-child(3)::before
@@ -118,7 +118,7 @@ body
 
 .text:last-child span
 {
-    background: linear-gradient(#29c040, #32ed4e);
+    background: linear-gradient(#FFF100, #00BCF2);
 }
 
 .text:last-child::before
