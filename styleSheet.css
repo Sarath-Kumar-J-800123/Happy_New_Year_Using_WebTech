@@ -208,22 +208,26 @@ h2.active:after
 
 .glowing span:nth-child(3n + 1)
 {
-    animation: animate 10s alternate infinite;
+    /* animation: animate 10s alternate infinite; */
+    animation: animate 5s alternate infinite;
 }
 
 .glowing span:nth-child(3n + 2)
 {
-    animation: animate-reverse 13s alternate infinite;
+    /* animation: animate-reverse 13s alternate infinite; */
+    animation: animate-reverse 10s alternate infinite;
 }
 
 .glowing span:nth-child(3n + 3)
 {
-    animation: animate 8s alternate infinite;
+    /* animation: animate 8s alternate infinite; */
+    animation: animate 5s alternate infinite;
 }
 
 .glowing span:nth-child(3n + 4)
 {
-    animation: animate-reverse 16s alternate infinite;
+    /* animation: animate-reverse 16s alternate infinite; */
+    animation: animate-reverse 10s alternate infinite;
 }
 
 @keyframes animate
@@ -232,10 +236,10 @@ h2.active:after
     {
         transform: rotate(0deg);
     }
-    60%
+    /* 60%
     {
         transform: rotate(240deg);
-    }
+    } */
     100%
     {
         transform: rotate(360deg);
@@ -248,10 +252,10 @@ h2.active:after
     {
         transform: rotate(360deg);
     }
-     60%
+     /* 60%
     {
         transform: rotate(240deg);
-    }
+    } */
     100%
     {
         transform: rotate(0deg);
