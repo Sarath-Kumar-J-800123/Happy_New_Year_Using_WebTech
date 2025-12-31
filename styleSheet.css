@@ -163,7 +163,7 @@ h2:after
 
 h2.active:after
 {
-    color: #ff7f50;
+    color: magenta;
     text-shadow: 0 0 20px #fff, 0 0 50px cyan;
 }
 
