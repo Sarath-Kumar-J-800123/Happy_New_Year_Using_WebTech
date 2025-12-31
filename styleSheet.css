@@ -69,7 +69,15 @@ body
     color: #fff;
     font-size: 4em;
     cursor: default;
-    background: linear-gradient(#434343,#535353);
+    /* background: linear-gradient(#434343,#535353); */
+    background: linear-gradient(
+    to right,
+    lightskyblue,
+    lightgreen,
+    lightcyan,
+    lightskyblue,
+    lightpink
+  ); 
     transform-style: preserve-3d;
     transform: rotateX(calc(90deg * var(--i))) translateZ(50px);
 }
